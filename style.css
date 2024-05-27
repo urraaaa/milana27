@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    background-color: darkred;
+    color: white;
+}
+
+.js-fireworks-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.js-text-container {
+    position: fixed;
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: yellow;
+}
+
+@media screen and (max-width: 700px){
+    .js-text-container {
+        position: fixed;
+        font-size: 1.8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    span {
+        font-size: 2vh;
+    }
+    
+}
+
